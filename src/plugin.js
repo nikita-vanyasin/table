@@ -46,6 +46,17 @@ export default class TableBlock {
   }
 
   /**
+   * Allow line breaks inside table cells
+   *
+   * @returns {object}
+   */
+  static get sanitize() {
+    return {
+      br: true
+    }
+  }
+
+  /**
    * Render plugin`s main Element and fill it with saved data
    *
    * @param {TableData} data — previously saved data
