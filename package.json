@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/table",
+  "name": "@nikita-vanyasin/table",
   "description": "Table for Editor.js",
   "version": "2.0.1",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "build:dev": "webpack --mode development --watch",
     "lint": "eslint -c ./.eslintrc --ext .js --fix ."
   },
-  "repository": "https://github.com/editor-js/table",
+  "repository": "https://github.com/nikita-vanyasin/table",
   "author": {
     "name": "CodeX Team",
     "email": "team@ifmo.su"
