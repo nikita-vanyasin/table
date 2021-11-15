@@ -52,7 +52,25 @@ export default class TableBlock {
    */
   static get sanitize() {
     return {
-      br: true
+      br: true,
+      b: true,
+      i: true,
+      strong: true,
+      h1: true,
+      h2: true,
+      h3: true,
+      h4: true,
+      h5: true,
+      h6: true,
+      sub: true,
+      sup: true,
+      span: true,
+      ul: true,
+      ol: true,
+      li: true,
+      pre: true,
+      hr: true,
+      a: true
     }
   }
 
